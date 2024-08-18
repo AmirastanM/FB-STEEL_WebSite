@@ -12,9 +12,25 @@
   }
 }
 
+.header_bottom {
+  display: none;
+}
+
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
+    .tech_info {
+      overflow-y: auto;
+    }
+   .contact_nav_language ul {
+    justify-content: space-evenly;
+    max-width: 200px;
+  }
+  
+  .header_bottom {
+    display: block;
+  }
+
   .hero_area {
     height: auto;
   }
@@ -44,8 +60,13 @@
     margin: 5px 0;
   }
 
+  .slider_section .detail-box {
+    margin-top: 0px;
+  }
+
   .slider_section .detail-box h1 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+
   }
 
   .slider_section {
